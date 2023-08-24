@@ -10,13 +10,23 @@ const Home = () => {
       <div>
         <Loading />
       </div>
-    }
-  >
-
-    <Navbar/>
+    }>
 
 
-    <div>Home</div>
+
+
+    <div>
+            <div className="index-hero">
+
+            <Navbar/>
+
+
+
+            </div>
+
+
+
+    </div>
 
 
     </Suspense>
