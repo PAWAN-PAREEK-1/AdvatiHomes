@@ -1,0 +1,12 @@
+.index-hero{
+    background-image: url(../Assets/img/herobg.svg);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.bg-hero{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}

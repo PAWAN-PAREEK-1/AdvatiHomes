@@ -1,8 +1,26 @@
 import React from 'react'
+import { lazy, Suspense } from "react";
+const Navbar = lazy(() => import("../Components/Navbar"));
+const Loading = lazy(() => import("../Components/Loading"));
 
 const About = () => {
   return (
-    <div>About</div>
+
+
+    <div>
+       <Suspense
+    fallback={
+      <div>
+        <Loading />
+      </div>
+    }>
+
+      <Navbar/>
+      About
+
+      </Suspense>
+
+      </div>
   )
 }
 

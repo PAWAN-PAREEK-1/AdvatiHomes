@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "../Style/Navbar.css";
-// import logo from "../Assets/img/logo.svg";
+import logo from "../Assets/img/logo.svg";
+import arrow from "../Assets/img/twoarrow.svg";
 // import search from "../Assets/img/search.svg";
 
 const Navbar = () => {
@@ -19,7 +20,7 @@ const Navbar = () => {
     <div>
       <div className="navbar ">
         <div className="logo">
-          <img src={""} alt="" />
+          <img src={logo} alt="" />
         </div>
         <nav>
           <div
@@ -40,11 +41,20 @@ const Navbar = () => {
                 onClick={closeMenu}
               >
                 Home
+
+                <div className="c-active">
+                  <span></span>
+                </div>
               </NavLink>
             </li>
             <li>
               <NavLink to="/About" activeclassname="active" onClick={closeMenu}>
-                About us
+                About Us
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/Projects" activeclassname="active" onClick={closeMenu}>
+                Projects
               </NavLink>
             </li>
             <li>
@@ -65,16 +75,8 @@ const Navbar = () => {
                 Amenities
               </NavLink>
             </li>
-            <li>
-              <NavLink to="/Faq" activeclassname="active" onClick={closeMenu}>
-                FAQ's
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="/Projects" activeclassname="active" onClick={closeMenu}>
-                Projects
-              </NavLink>
-            </li>
+
+
             <li>
               <NavLink
                 to="/Villas"
@@ -82,6 +84,11 @@ const Navbar = () => {
                 onClick={closeMenu}
               >
                Villas
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/Faq" activeclassname="active" onClick={closeMenu}>
+                FAQ's
               </NavLink>
             </li>
           </ul>
@@ -94,7 +101,7 @@ const Navbar = () => {
             </a>
           </div>
           <div className="quote-btn cursor-pointer">
-            <a href="">Get Quotes</a>
+            <a href="">Get Quotes <img src={arrow} alt="" /> </a>
           </div>
         </div>
       </div>
