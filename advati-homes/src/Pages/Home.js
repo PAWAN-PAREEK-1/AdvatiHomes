@@ -11,6 +11,7 @@ import arrow from "../Assets/img/twoarrow.svg";
 import mouse from "../Assets/img/mouse.svg";
 const Navbar = lazy(() => import("../Components/Navbar"));
 const Loading = lazy(() => import("../Components/Loading"));
+const Aboutus = lazy(() => import("../Components/About"));
 
 const Home = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -73,6 +74,8 @@ const Home = () => {
             <img src={shadebg} alt="" />
           </div>
         </div>
+
+        <Aboutus/>
       </div>
     </Suspense>
   );
