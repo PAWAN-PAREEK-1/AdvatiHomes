@@ -12,6 +12,7 @@ import mouse from "../Assets/img/mouse.svg";
 const Navbar = lazy(() => import("../Components/Navbar"));
 const Loading = lazy(() => import("../Components/Loading"));
 const Aboutus = lazy(() => import("../Components/About"));
+const Gallery = lazy(() => import("../Components/Gallery"));
 
 const Home = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -76,6 +77,7 @@ const Home = () => {
         </div>
 
         <Aboutus/>
+        <Gallery/>
       </div>
     </Suspense>
   );
