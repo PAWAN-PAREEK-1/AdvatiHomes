@@ -65,8 +65,14 @@ const Gallery = () => {
               </a>
             ))}
           </div>
+
+
         </div>
+        <div className="bg-box2">
+
+</div>
       </div>
+
     </div>
   );
 }

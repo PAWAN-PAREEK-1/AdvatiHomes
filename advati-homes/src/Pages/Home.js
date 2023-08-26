@@ -13,6 +13,7 @@ const Navbar = lazy(() => import("../Components/Navbar"));
 const Loading = lazy(() => import("../Components/Loading"));
 const Aboutus = lazy(() => import("../Components/About"));
 const Gallery = lazy(() => import("../Components/Gallery"));
+const Services = lazy(() => import("../Components/Services"));
 
 const Home = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -78,6 +79,7 @@ const Home = () => {
 
         <Aboutus/>
         <Gallery/>
+        <Services/>
       </div>
     </Suspense>
   );
