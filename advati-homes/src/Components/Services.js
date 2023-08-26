@@ -8,6 +8,7 @@ import s4 from "../Assets/img/s4.svg";
 const Services = () => {
   return (
     <div>
+        <div className="ser">
         <div className="service">
         <div className="index-service">
             <div className="right-serv">
@@ -30,6 +31,13 @@ const Services = () => {
                 </div>
 
             </div>
+
+        </div>
+
+
+        <div className="bg-box3">
+
+</div>
 
         </div>
         </div>
