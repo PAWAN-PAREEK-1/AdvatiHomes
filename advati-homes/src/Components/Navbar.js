@@ -33,11 +33,11 @@ const Navbar = () => {
           </div>
 
           <ul className="NavbarList ">
-            <li>
+            <li  className="active">
               <NavLink
                 exact
                 to="/"
-                activeclassname="active"
+
                 onClick={closeMenu}
               >
                 Home
@@ -48,31 +48,43 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/About" activeclassname="active" onClick={closeMenu}>
+              <NavLink to="/About"  onClick={closeMenu}>
                 About Us
+                <div className="c-active">
+                  <span></span>
+                </div>
               </NavLink>
             </li>
             <li>
-              <NavLink to="/Projects" activeclassname="active" onClick={closeMenu}>
+              <NavLink to="/Projects"  onClick={closeMenu}>
                 Projects
+                <div className="c-active">
+                  <span></span>
+                </div>
               </NavLink>
             </li>
             <li>
               <NavLink
                 to="/Services"
-                activeclassname="active"
+                // className="active"
                 onClick={closeMenu}
               >
                 Services
+                <div className="c-active">
+                  <span></span>
+                </div>
               </NavLink>
             </li>
             <li>
               <NavLink
                 to="/Amenities"
-                activeclassname="active"
+                // className="active"
                 onClick={closeMenu}
               >
                 Amenities
+                <div className="c-active">
+                  <span></span>
+                </div>
               </NavLink>
             </li>
 
@@ -80,15 +92,21 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/Villas"
-                activeclassname="active"
+                // className="active"
                 onClick={closeMenu}
               >
                Villas
+               <div className="c-active">
+                  <span></span>
+                </div>
               </NavLink>
             </li>
             <li>
-              <NavLink to="/Faq" activeclassname="active" onClick={closeMenu}>
+              <NavLink to="/Faq"  onClick={closeMenu}>
                 FAQ's
+                <div className="c-active">
+                  <span></span>
+                </div>
               </NavLink>
             </li>
           </ul>
@@ -115,21 +133,21 @@ const Navbar = () => {
               <NavLink
                 exact
                 to="/"
-                activeclassname="active"
+                className="active"
                 onClick={closeMenu}
               >
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink to="/About" activeclassname="active" onClick={closeMenu}>
+              <NavLink to="/About" className="active" onClick={closeMenu}>
                 About us
               </NavLink>
             </li>
             <li>
               <NavLink
                 to="/Services"
-                activeclassname="active"
+                className="active"
                 onClick={closeMenu}
               >
                 Services
@@ -138,26 +156,26 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/Amenities"
-                activeclassname="active"
+                className="active"
                 onClick={closeMenu}
               >
                 Amenities
               </NavLink>
             </li>
             <li>
-              <NavLink to="/Faq" activeclassname="active" onClick={closeMenu}>
+              <NavLink to="/Faq" className="active" onClick={closeMenu}>
                 FAQ's
               </NavLink>
             </li>
             <li>
-              <NavLink to="/Projects" activeclassname="active" onClick={closeMenu}>
+              <NavLink to="/Projects" className="active" onClick={closeMenu}>
                 Projects
               </NavLink>
             </li>
             <li>
               <NavLink
                 to="/Villas"
-                activeclassname="active"
+                className="active"
                 onClick={closeMenu}
               >
                Villas
@@ -167,7 +185,7 @@ const Navbar = () => {
         </div>
       )}
     </div>
-    //   <NavLink to="/Gallery" activeclassname="active" onClick={closeMenu}>
+    //   <NavLink to="/Gallery" className="active" onClick={closeMenu}>
     //   Gallery
     // </NavLink>
   );

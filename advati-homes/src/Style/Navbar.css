@@ -12,6 +12,11 @@ a {
 
 .navbar{
     padding: 0.63rem 15rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
 }
 
 .NavbarList li {
@@ -38,14 +43,17 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 }
-.NavbarList li a.active,
-.NavbarList li a.active + .c-active {
+.NavbarList li.active a
+ {
   color: var(--primery, #82A93C);
   font-family: Jost;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+.NavbarList li.active a + .c-active{
+    background-color: #82A93C !important;
 }
 
 .c-active {
@@ -55,7 +63,7 @@ line-height: normal;
   background-color: #82A93C;
   margin: auto;
   margin-top: 0.5rem;
- 
+
 }
 
 .NavbarList {
