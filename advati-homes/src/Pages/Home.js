@@ -7,6 +7,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 import bg from "../Assets/img/herobg.svg";
+import bg2 from "../Assets/img/herobg2.svg";
 const Navbar = lazy(() => import("../Components/Navbar"));
 const Loading = lazy(() => import("../Components/Loading"));
 
@@ -29,14 +30,9 @@ const Home = () => {
 
 
         <SwiperSlide><img src={bg} alt="" /></SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide><img src={bg2} alt="" /></SwiperSlide>
+        <SwiperSlide><img src={bg} alt="" /></SwiperSlide>
+       
       </Swiper>
 
 

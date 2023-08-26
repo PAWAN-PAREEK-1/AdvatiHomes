@@ -40,4 +40,19 @@
     position: absolute;
     top: 0;
     z-index: -1;
+
+}
+.swiper-button-prev{
+    padding-left: 15rem;
+
+}
+.swiper-button-next{
+    padding-right: 15rem;
+}
+.swiper-button-prev, .swiper-button-next{
+    color: white !important;
+border-radius: 50%;
+border: 2px solid white;
+padding: 33px;
+margin-inline: 15rem;
 }
