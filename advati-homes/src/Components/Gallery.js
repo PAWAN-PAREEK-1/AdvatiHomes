@@ -10,6 +10,16 @@ import rightarrow from "../Assets/img/grightsvg.svg";
 
 const Gallery = () => {
   const images = [a1, a2, a3, a4, a2, a3, a4];
+  const imageLinks = [
+    { image: a1, link: "https://example.com/link1" },
+    { image: a2, link: "https://example.com/link2" },
+    { image: a3, link: "https://example.com/link3" },
+    { image: a4, link: "https://example.com/link4" },
+    { image: a2, link: "https://example.com/link5" },
+    { image: a3, link: "https://example.com/link6" },
+    { image: a4, link: "https://example.com/link7" },
+  ];
+
   const imageRef = useRef(null);
   const [scrollPosition, setScrollPosition] = useState(0);
 
@@ -42,15 +52,17 @@ const Gallery = () => {
         </div>
         <div className="gallery-down" ref={imageRef}>
           <div className="image-container" style={{ transform: `translateX(-${scrollPosition}px)` }}>
-            {images.map((image, index) => (
-              <div className="image-wrapper" key={index}>
-                <img
-                  src={image}
-                  alt={`Image ${index + 1}`}
-                  className="gallery-image"
-                />
-                <div className="image-tooltip"><h2>Learn more <img src={rightarrow} alt="" /> </h2></div>
-              </div>
+            {imageLinks.map(({ image, link }, index) => (
+              <a href={link} key={index} className="image-link">
+                <div className="image-wrapper">
+                  <img
+                    src={image}
+                    alt={`Image ${index + 1}`}
+                    className="gallery-image"
+                  />
+                  <div className="image-tooltip"><h2>Learn more <img src={rightarrow} alt="" /> </h2></div>
+                </div>
+              </a>
             ))}
           </div>
         </div>
