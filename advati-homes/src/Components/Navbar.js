@@ -5,7 +5,8 @@ import logo from "../Assets/img/logo.svg";
 import arrow from "../Assets/img/twoarrow.svg";
 // import search from "../Assets/img/search.svg";
 
-const Navbar = () => {
+
+const Navbar = ({activeUrl}) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -31,9 +32,9 @@ const Navbar = () => {
             <div className="bar2"></div>
             <div className="bar3"></div>
           </div>
-
+{}
           <ul className="NavbarList ">
-            <li  className="active">
+            <li  className={activeUrl === "/" ? "active" : null}>
               <NavLink
                 exact
                 to="/"
@@ -41,73 +42,62 @@ const Navbar = () => {
                 onClick={closeMenu}
               >
                 Home
-
-                <div className="c-active">
-                  <span></span>
-                </div>
               </NavLink>
+              <div></div>
             </li>
-            <li>
+            <li className={activeUrl == "/About" ? "active" : null}>
               <NavLink to="/About"  onClick={closeMenu}>
                 About Us
-                <div className="c-active">
-                  <span></span>
-                </div>
               </NavLink>
+<div></div>
             </li>
-            <li>
+            <li className={activeUrl == "/Projects" ? "active" : null}>
               <NavLink to="/Projects"  onClick={closeMenu}>
                 Projects
-                <div className="c-active">
-                  <span></span>
-                </div>
               </NavLink>
+<div></div>
             </li>
-            <li>
+            <li className={activeUrl == "/Services" ? "active" : null}>
               <NavLink
                 to="/Services"
                 // className="active"
                 onClick={closeMenu}
               >
                 Services
-                <div className="c-active">
-                  <span></span>
-                </div>
+
               </NavLink>
+<div></div>
             </li>
-            <li>
+            <li className={activeUrl == "/Amenities" ? "active" : null}>
               <NavLink
                 to="/Amenities"
                 // className="active"
                 onClick={closeMenu}
               >
                 Amenities
-                <div className="c-active">
-                  <span></span>
-                </div>
+
               </NavLink>
+              <div></div>
             </li>
 
 
-            <li>
+            <li className={activeUrl == "/Villas" ? "active" : null}>
               <NavLink
                 to="/Villas"
                 // className="active"
                 onClick={closeMenu}
               >
                Villas
-               <div className="c-active">
-                  <span></span>
-                </div>
+
               </NavLink>
+              <div></div>
             </li>
-            <li>
+            <li className={activeUrl == "/Faq" ? "active" : null}>
               <NavLink to="/Faq"  onClick={closeMenu}>
                 FAQ's
-                <div className="c-active">
-                  <span></span>
-                </div>
+
               </NavLink>
+              <div></div>
             </li>
           </ul>
         </nav>

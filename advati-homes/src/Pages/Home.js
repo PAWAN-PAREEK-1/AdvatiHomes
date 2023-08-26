@@ -24,7 +24,7 @@ const Home = () => {
 
     <div>
             <div className="index-hero">
-            <Navbar/>
+            <Navbar activeUrl={"/"}/>
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
 
 

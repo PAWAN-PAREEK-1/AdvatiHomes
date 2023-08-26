@@ -15,7 +15,7 @@ const About = () => {
       </div>
     }>
 
-      <Navbar/>
+<Navbar activeUrl={"/About"}/>
       About
 
       </Suspense>

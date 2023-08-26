@@ -10,6 +10,7 @@ a {
 }
 
 
+
 .navbar{
     padding: 0.63rem 15rem;
     position: absolute;
@@ -52,15 +53,14 @@ line-height: normal;
   font-weight: 600;
   line-height: normal;
 }
-.NavbarList li.active a + .c-active{
+.NavbarList li.active div{
     background-color: #82A93C !important;
 }
-
-.c-active {
+.NavbarList li div {
   width: 0.5625rem;
   height: 0.5625rem;
   border-radius: 50%;
-  background-color: #82A93C;
+  background-color: transparent;
   margin: auto;
   margin-top: 0.5rem;
 
