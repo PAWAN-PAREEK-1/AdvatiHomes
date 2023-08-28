@@ -1,0 +1,76 @@
+.testimonial{
+    padding: 6.25rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+
+}
+.testi-box{
+    padding: 2.5rem 2.19rem 2.87rem;
+    border-radius: 0.3125rem;
+background: #292929;
+box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25);
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+height: 21rem;
+position: relative;
+width: 50.1875rem;
+
+
+}
+.testi-center{
+    width: 76.188rem;
+height: 24rem;
+}
+#testi{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.testi-box img{
+    padding-bottom: 0.62rem;
+}
+.testi-box h3{
+    color: #FFF;
+text-align: center;
+font-family: Tobias;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+padding-top: 0.62rem;
+padding-bottom: 0.94rem;
+}
+.testi-box p{
+    color: #7F7F7F;
+text-align: center;
+font-family: Jost;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+}
+#tright{
+
+    left: 26rem;
+    
+}
+#tleft{
+
+    right: 26rem;
+
+}
+#tleft,#tright{
+    position: absolute;
+    top: 34%;
+    z-index: 1;
+    cursor: pointer;
+
+}

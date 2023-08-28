@@ -12,6 +12,10 @@
     z-index: 9999;
 }
 
+body{
+    background: #1B1B1B;
+}
+
 
 
 .swiper {
