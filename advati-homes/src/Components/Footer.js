@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="footer-index">
             <footer>
 
-                <div className="footer-1">
+                <div  className="footer-1">
                     <img src={logo} alt="" />
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget turpis ut erat congue tempor eu ac dolor. Sed imperdiet ligula vel cursus volutpat. <span>Read More</span></p>
                     <a href=""><h2><img src={call}  alt="" />
