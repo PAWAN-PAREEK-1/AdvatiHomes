@@ -16,6 +16,7 @@ const Gallery = lazy(() => import("../Components/Gallery"));
 const Services = lazy(() => import("../Components/Services"));
 const Project = lazy(() => import("../Components/Project"));
 const Amenities = lazy(() => import("../Components/Amenities"));
+const Faq = lazy(() => import("../Components/Faq"));
 
 const Home = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -84,6 +85,7 @@ const Home = () => {
         <Services/>
         <Project/>
         <Amenities/>
+        <Faq/>
       </div>
     </Suspense>
   );
