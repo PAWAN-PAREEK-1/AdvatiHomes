@@ -1,0 +1,117 @@
+.ame-index{
+    background: #1B1B1B;
+}
+.amenities{
+    padding: 6.25rem 15rem 0;
+    display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.ame-up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .ame-up h3 {
+        color: var(--primery, #82A93C);
+        font-family: Jost;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.0125rem;
+        text-align: center;
+        padding: 0.625rem 2.25rem;
+        border-bottom: 1px solid #666;
+        margin-bottom: 0.94rem;
+        width: fit-content;
+    }
+
+.ame-up h1{
+    color: #FFF;
+text-align: center;
+font-family: Tobias;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+text-align: center ;
+}
+
+
+
+
+/* Add this to your Amenities.css */
+.ame-down {
+    margin-top: 3.13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 0.3125rem 0.3125rem 0rem 0rem;
+background: #2D2D2D;
+gap: 4.31rem ;
+width: fit-content;
+padding: 0.94rem 2.5rem;
+  }
+
+
+  .ame-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ame-icon img {
+    max-width: 100px;
+  }
+
+
+  h3 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .ame-icon h3{
+    color: #FFF;
+font-family: Jost;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.0125rem;
+  }
+  .ame-main img{
+    width: 100%;
+  }
+  .ame-main{
+    padding: 1.25rem;
+    border-radius: 0.3125rem;
+background: #2D2D2D;
+display: grid;
+grid-template-columns: 1fr 1fr;
+align-items: center;
+justify-content: center;
+gap: 2.19rem;
+  }
+  .ame-detail h1{
+    color: #FFF;
+font-family: Tobias;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+padding-bottom: 1.56rem;
+  }
+  .ame-detail p{
+    color: #FFF;
+font-family: Jost;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.0125rem;
+  }
