@@ -45,13 +45,96 @@ align-items: center;
 gap: 0.9375rem;
 
 }
-.project-down{
+
+/* .project-down{
     margin-top: 3.12rem;
     display: flex;
     gap: 1.87rem;
 
 }
-.pro-img img{
-    width: 66.4375rem;
+.pro-img{
+    width: 100%;
 min-height: 33rem;
+background-repeat: no-repeat;
+}
+.pro-img img{
+    width: 100% !important;
+min-height: 33rem;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add this to your existing Project.css */
+.slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  position: relative;
+}
+
+.slider-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 38rem;
+  width: 100%;
+  position: relative;
+}
+
+.slider-img {
+  width: 100%; /* Full width */
+  height: 38rem; /* Full height */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 10px;
+  transition: transform 0.3s ease-in-out;
+  transform-origin: center center;
+}
+
+.center {
+  transform: scale(1.2); /* Enlarge the center image */
+  z-index: 1;
+}
+
+.slider-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: absolute;
+  bottom: 10px; /* Adjust as needed */
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.slider-nav {
+  width: 10px; /* Adjust as needed */
+  height: 10px; /* Adjust as needed */
+  background-color: green; /* Change to your desired color */
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.active {
+  transform: scale(1.5); /* Enlarge the active (center) navigation circle */
 }
