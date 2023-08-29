@@ -108,8 +108,36 @@ line-height: normal;
     gap: 1.44rem;
     margin-top: 1.5rem;
 }
-.logo{
+.logo2{
     position: absolute;
     bottom: 1.31rem;
     right: 15rem;
+}
+.footer-detail{
+    padding: 1.25rem 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-links{
+
+display: flex;
+gap: 3.12rem;
+}
+.footer-links a{
+    color: var(--dark-text, #8C8C8C);
+    font-family: Jost;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer-detail h4{
+    color: var(--dark-text, #8C8C8C);
+text-align: right;
+font-family: Jost;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
