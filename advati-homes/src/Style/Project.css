@@ -136,5 +136,5 @@ min-height: 33rem;
 }
 
 .active {
-  transform: scale(1.5); /* Enlarge the active (center) navigation circle */
+  transform: scale(1); /* Enlarge the active (center) navigation circle */
 }

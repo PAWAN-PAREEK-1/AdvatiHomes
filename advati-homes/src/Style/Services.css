@@ -122,3 +122,14 @@ line-height: normal;
 	position: absolute;
 	z-index: 1;
 }
+
+
+
+@media (max-width: 767px) {
+    .bg-box3{
+        display: none;
+    }
+    .bg-box{
+        display: none;
+    }
+}

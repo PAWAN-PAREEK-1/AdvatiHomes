@@ -10,7 +10,7 @@ const About = () => {
     <div>
       <div className="about-index">
         <div className="about-main">
-          <div className="about-left">
+          <div className="about-left mob-none">
             <img src={aboutbg} alt="" />
             <div className="about-rating">
             <div className="about-box">
@@ -37,6 +37,22 @@ const About = () => {
               the market than any other brand because we live locally and work
               for local people.
             </p>
+
+
+            <div className="about-left desk-none">
+            <img src={aboutbg} alt="" />
+            <div className="about-rating">
+            <div className="about-box">
+              <div className="right-img">
+                <img src={right} alt="" />
+              </div>
+              <h1>4.8</h1>
+              <img src={star} alt="" />
+              <h3>Trusted on</h3>
+              <h2>500+ Reviews</h2>
+            </div>
+          </div>
+          </div>
             <div className="about-points">
               <div className="point-left">
                 <h3>

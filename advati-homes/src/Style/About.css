@@ -163,3 +163,85 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+
+.desk-none{
+    display: none;
+}
+
+
+
+@media (max-width: 767px) {
+    .about-main{
+        padding: 0.94rem;
+        grid-template-columns: 1fr;
+    }
+    .mob-none{
+        display: none !important;
+    }
+    .desk-none{
+        display: block;
+    }
+    .about-right h4{
+font-size: 0.9375rem;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.00938rem;
+padding-bottom: 0.5rem;
+    }
+    .about-right{
+        align-items: center;
+    }
+    .about-right h1{
+text-align: center;
+font-size: 1.25rem;
+font-weight: 700;
+text-transform: uppercase;
+    }
+    .about-right p{
+font-size: 0.8125rem;
+text-align: center;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.00813rem;
+    }
+    .about-box h1{
+text-align: center;
+font-size: 1.5625rem !important;
+font-weight: 400;
+padding-block: 0.31rem !important;
+padding-bottom: 0 !important;
+    }
+    .about-box{
+        padding: 1rem 0.63rem 0.63rem;
+        width: 5.8125rem;
+        height: 7.513rem;
+    }
+    .right-img{
+        left: 31%;
+    }
+    .about-box h3{
+text-align: center;
+font-size: 0.75rem;
+font-weight: 400;
+line-height: normal;
+margin-top: 0;
+    }
+    .about-box h2{
+text-align: center;
+font-size: 0.75rem;
+font-weight: 400;
+line-height: normal;
+    }
+    .about-rating{
+        right: 0.8rem;
+        bottom: -1.3rem;
+    }
+    .about-points{
+        margin-top: 0.5rem;
+        flex-direction: column;
+        gap: 0;
+    }
+    .about-points h3{
+        padding-block: 0;
+    }
+}

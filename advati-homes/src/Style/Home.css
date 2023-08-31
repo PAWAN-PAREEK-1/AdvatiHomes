@@ -111,3 +111,42 @@ background: var(--primery, #82A93C) !important;
     z-index: 999;
     left: 48%;
 }
+
+
+
+@media (max-width: 768px){
+    .swiper-button-prev, .swiper-button-next{
+        display: none !important;
+    }
+    .swiper-details h1{
+font-size: 1.25rem;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+    }
+    .swiper-details p{
+font-size: 0.8125rem;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.00813rem;
+padding-inline: 0.5rem;
+    }
+    .quote-btn a{
+font-size: 1rem;
+font-weight: 600;
+line-height: normal;
+    }
+    .swiper-slide img{
+        /* height:80vh; */
+    }
+    .mouse {
+        position: absolute;
+        bottom: 15%;
+        z-index: 999;
+        left: 43%;
+    }
+    .bg-hero {
+        bottom: -5px;
+    }
+   
+}

@@ -45,7 +45,7 @@ const Gallery = () => {
             <h3>Gallery <hr /></h3>
             <h1>Our Recent Projects</h1>
           </div>
-          <div className="navigation">
+          <div className="navigation mob-none">
             <img onClick={handlePrevClick} src={left} alt="Left Arrow" />
             <img onClick={handleNextClick} src={right} alt="Right Arrow" />
           </div>
@@ -68,6 +68,10 @@ const Gallery = () => {
 
 
         </div>
+        <div className="navigation desk-none">
+            <img onClick={handlePrevClick} src={left} alt="Left Arrow" />
+            <img onClick={handleNextClick} src={right} alt="Right Arrow" />
+          </div>
         <div className="bg-box2">
 
 </div>

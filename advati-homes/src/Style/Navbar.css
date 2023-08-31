@@ -195,6 +195,9 @@ text-transform: capitalize;
 }
 
 @media (max-width:768px) {
+    .navbar{
+        padding: 0.94rem    ;
+    }
 
     .NavbarList{
         display: none !important;
@@ -227,6 +230,19 @@ text-transform: capitalize;
     .bar1, .bar2, .bar3{
         background-color: white;
     }
+    .right-nav{
+        display: none;
+    }
+    .quote-btn a{
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: normal;
+     }
+
+
+            .quote-btn{
+                padding: 0.64rem 1.25rem;
+            }
 
 
 }
