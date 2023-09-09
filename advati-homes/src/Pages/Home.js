@@ -4,7 +4,7 @@ import shadebg from "../Assets/img/smallherobg.svg";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { Navigation } from 'swiper/modules';
+import { Navigation ,Autoplay} from 'swiper/modules';
 import bg from "../Assets/img/herobg.svg";
 import bg2 from "../Assets/img/herobg2.svg";
 import arrow from "../Assets/img/twoarrow.svg";
@@ -58,7 +58,13 @@ const Home = () => {
       <div>
         <div className="index-hero">
           <Navbar activeUrl={"/"} />
-          <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+          <Swiper
+
+          autoplay={{
+          delay: 2500,
+
+          disableOnInteraction: false,
+        }} loop={true} navigation={true} modules={[Navigation,Autoplay]} className="mySwiper">
             <SwiperSlide><img src={bg} alt="" /></SwiperSlide>
             <SwiperSlide><img src={bg2} alt="" /></SwiperSlide>
             <SwiperSlide><img src={bg} alt="" /></SwiperSlide>

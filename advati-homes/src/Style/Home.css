@@ -111,6 +111,9 @@ background: var(--primery, #82A93C) !important;
     z-index: 999;
     left: 48%;
 }
+.swiper-button-prev,.swiper-button-next{
+    display: none !important;
+}
 
 
 
@@ -148,5 +151,5 @@ line-height: normal;
     .bg-hero {
         bottom: -5px;
     }
-   
+
 }
