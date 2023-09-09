@@ -60,7 +60,7 @@ text-transform: uppercase;
 #tright{
 
     left: 26rem;
-    
+
 }
 #tleft{
 
@@ -73,4 +73,47 @@ text-transform: uppercase;
     z-index: 1;
     cursor: pointer;
 
+}
+
+@media (max-width: 768px) {
+    .testimonial{
+        padding: 0.94rem;
+        margin-top: 3rem;
+      }
+      .testi-box img{
+        width: 2.8125rem;
+height: 2.8125rem;
+      }
+      .testi-box h3{
+font-size: 1.125rem;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+      }
+      .testi-box p{
+text-align: center;
+font-size: 0.8125rem;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+      }
+      .testi-box{
+        min-width: 21.5625rem;
+height: 14.5625rem;
+      }
+      .testi-box{
+        padding: 0.94rem;
+      }
+      #tright,#tleft{
+width: 1.875rem;
+height: 1.875rem;
+      }
+      #tright {
+        top: 102%;
+        left: 8rem;
+    }
+    #tleft{
+        right: 8rem;
+        top: 102%;
+    }
 }

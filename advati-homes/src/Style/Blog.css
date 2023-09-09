@@ -1,3 +1,6 @@
+.blog-index{
+    position: relative;
+}
 .blog-main{
     padding: 6.25rem 15rem 11.25rem;
 }
@@ -54,4 +57,48 @@ align-items: center;
 position: absolute;
 top: -41px;
 right: 0;
+}
+
+@media (max-width: 768px) {
+    .blog-main{
+        padding: 0.94rem;
+        margin-top: 4rem;
+    }
+    .project-up{
+        flex-direction: column;
+    }
+    .down-ab{
+       position: absolute;
+       bottom: 0;
+    }
+    .ins-img h2{
+font-size: 0.75rem;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+    }
+    .ins-img p{
+font-size: 1.125rem;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+padding-top: 0.5rem;
+    }
+    .ins-img{
+        padding: 0.94rem;
+        width: 15.3125rem;
+height: 6.125rem;
+flex-shrink: 0;
+    }
+    .date{
+font-size: 0.425rem;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+padding: 0.63rem;
+    }
+    .blog-left{
+        overflow: initial;
+    }
+
 }

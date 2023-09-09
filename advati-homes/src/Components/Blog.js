@@ -19,20 +19,21 @@ const Blog = () => {
               </h2>
               <h1>Our lateSt News & Blog </h1>
             </div>
-            <div className="quote-btn">
+            <div className="quote-btn down-ab">
               <a href="">
                 View Projects
                 <img src={arrow} alt="" />{" "}
               </a>
             </div>
           </div>
-          <div className="left-serv">
-            <div className="serv-box">
+          <div className="left-serv blog-left">
+            <div className="serv-box blog-boxes">
               <img src={i1} alt="" />
               <div className="serv-icon">
                 {/* <img src={ser1} alt="" id='ser-icon' /> */}
                 <div className="ins">
                   <div className="ins-img">
+                    
                     <h2>
                       Consultation <img src={smcir} alt="" /> Admin{" "}
                     </h2>

@@ -29,7 +29,7 @@ const Project = () => {
               <h2>Projects <hr /></h2>
               <h1>Our latest Projects (Villas)</h1>
             </div>
-            <div className="quote-btn">
+            <div className="quote-btn mob-none">
               <a href="">
                 View Projects
                 <img src={arrow} alt="" />{" "}

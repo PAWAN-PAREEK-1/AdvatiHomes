@@ -71,3 +71,43 @@ letter-spacing: 0.0125rem;
   .faq-question.open .answer {
     display: block;
   }
+
+  @media (max-width: 768px) {
+    .faq-main{
+      padding: 0.94rem;
+      display: flex;
+      flex-direction: column-reverse;
+
+    }
+    .faq-right img{
+      width: 100%;
+
+    }
+    .faq-left h1{
+font-size: 1.25rem;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+    }
+    .faq-question h2{
+font-size: 0.875rem;
+font-weight: 600;
+line-height: 1.125rem; /* 128.571% */
+text-transform: uppercase;
+    }
+    .answer{
+font-size: 0.8125rem;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.00813rem;
+    }
+    .faq-question.open .question img{
+      width: 1.125rem;
+height: 1.125rem;
+    }
+    .faq-question .question img{
+      width: 1.125rem;
+height: 1.125rem;
+    }
+  
+  }

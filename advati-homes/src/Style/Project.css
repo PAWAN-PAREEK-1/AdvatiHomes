@@ -138,3 +138,41 @@ min-height: 33rem;
 .active {
   transform: scale(1); /* Enlarge the active (center) navigation circle */
 }
+
+
+
+@media(max-width:768px) {
+  .project{
+    padding: 0.94rem;
+  }
+  .project-up h2{
+font-size: 0.9375rem;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.00938rem;
+display: inline-flex;
+flex-direction: column;
+align-items: center;
+  }
+  .project-up h1{
+font-size: 1.25rem;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+  }
+  .pro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .slider{
+    margin-top: 0;
+  }
+  .slider-images{
+    height: auto;
+  }
+  .slider-img{
+    width: 13.625rem;
+height: 8.125rem;
+  }
+}
