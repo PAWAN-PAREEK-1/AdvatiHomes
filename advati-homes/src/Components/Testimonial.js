@@ -71,6 +71,11 @@ const Testimonial = () => {
   return (
     <div>
       <div className="testi-index">
+
+      <div className="ame-up">
+            <h3>Testimonial</h3>
+            <h1>What People Are Saying </h1>
+          </div>
         <div className="testimonial">
           <img src={tright} alt="" id="tright" onClick={handleNext} />
           <img src={tleft} alt="" id="tleft" onClick={handlePrev} />

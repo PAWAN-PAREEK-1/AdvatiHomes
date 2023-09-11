@@ -1,5 +1,9 @@
-.testimonial{
+.testi-index{
     padding: 6.88rem 0 0 0;
+}
+
+.testimonial{
+margin-top: 3.13rem;
     display: flex;
     flex-direction: row;
     align-items: center;

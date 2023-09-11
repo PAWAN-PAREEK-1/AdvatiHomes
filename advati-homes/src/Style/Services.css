@@ -48,7 +48,7 @@ text-transform: uppercase;
     position: relative;
 }
 .bg-box3{
-
+    display: none;
     width: 34.9375rem;
 height: 62.5rem;
 opacity: 0.5;
