@@ -1,49 +1,45 @@
-.index-project{
-    background-color: #1B1B1B;
+.index-project {
+  background-color: #1b1b1b;
 }
-.project{
-    padding: 6.25rem 15rem 0;
+.project {
+  padding: 6.25rem 15rem 0;
 }
-.project-up{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
+.project-up {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.project-up h2{
-    color: var(--primery, #82A93C);
-    font-family: Jost;
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.0125rem;
-
+.project-up h2 {
+  color: var(--primery, #82a93c);
+  font-family: Jost;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.0125rem;
 }
-.project-up h2 hr{
-    width: 8.625rem;
-    margin-top: 0.63rem;
+.project-up h2 hr {
+  width: 8.625rem;
+  margin-top: 0.63rem;
 }
-.project-up h1{
-
-    padding-top: 0.94rem;
-    color: #FFF;
-    font-family: Tobias;
-    font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
+.project-up h1 {
+  padding-top: 0.94rem;
+  color: #fff;
+  font-family: Tobias;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
 }
-.know-btn{
-    border: 1px solid #FFF;
+.know-btn {
+  border: 1px solid #fff;
 }
-.know-btn a{
-    display: inline-flex;
-padding: 0.8125rem 2.1875rem;
-align-items: center;
-gap: 0.9375rem;
-
+.know-btn a {
+  display: inline-flex;
+  padding: 0.8125rem 2.1875rem;
+  align-items: center;
+  gap: 0.9375rem;
 }
 
 /* .project-down{
@@ -61,23 +57,6 @@ background-repeat: no-repeat;
     width: 100% !important;
 min-height: 33rem;
 } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Add this to your existing Project.css */
 .slider {
@@ -110,7 +89,7 @@ min-height: 33rem;
 }
 
 .center {
-  transform: scale(1.2); /* Enlarge the center image */
+  /* transform: scale(1.2); Enlarge the center image */
   z-index: 1;
 }
 
@@ -138,41 +117,88 @@ min-height: 33rem;
 .active {
   transform: scale(1); /* Enlarge the active (center) navigation circle */
 }
+.project-down{
+  margin-top: 3.12rem;
+}
 
-
-
-@media(max-width:768px) {
-  .project{
+@media (max-width: 768px) {
+  .project {
     padding: 0.94rem;
   }
-  .project-up h2{
-font-size: 0.9375rem;
-font-weight: 600;
-line-height: normal;
-letter-spacing: 0.00938rem;
-display: inline-flex;
-flex-direction: column;
-align-items: center;
+  .project-up h2 {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.00938rem;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
   }
-  .project-up h1{
-font-size: 1.25rem;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
+  .project-up h1 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
   }
-  .pro{
+  .pro {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .slider{
+  .slider {
     margin-top: 0;
   }
-  .slider-images{
+  .slider-images {
     height: auto;
   }
-  .slider-img{
+  .slider-img {
     width: 13.625rem;
-height: 8.125rem;
+    height: 8.125rem;
   }
 }
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-down {
+  overflow: hidden;
+}
+
+.project-down .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.project-down .swiper {
+  width: 130%;
+  height: 100%;
+  transform: translateX(-8%);
+}
+
+.project-down .swiper-slide {
+  height: 470px;
+  border: 3px solid white;
+  transform: scale(0.95 , 0.9);
+  margin: 0 !important;
+}
+.project-down .swiper-slide-next {
+  transform: scale(1, 1) !important;
+}
+
+

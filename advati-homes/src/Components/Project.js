@@ -1,24 +1,30 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 import "../Style/Project.css";
+import "swiper/css";
+import "swiper/css/pagination";
+
+// import required modules
+import { Pagination } from "swiper/modules";
 import arrow from "../Assets/img/twoarrow.svg";
 import p1 from "../Assets/img/p1.svg";
 import p2 from "../Assets/img/p2.svg";
 import p3 from "../Assets/img/p3.svg";
 
 const Project = () => {
-  const [centerImage, setCenterImage] = useState(0);
+  //   const [centerImage, setCenterImage] = useState(0);
 
-  const proImages = [
-    p1, // Replace with your image paths
-    p1, // Replace with your image paths
-    p1,
-    // p3,
-    // p2,  // Replace with your image paths
-  ];
+  //   const proImages = [
+  //     p1, // Replace with your image paths
+  //     p1, // Replace with your image paths
+  //     p1,
+  //     // p3,
+  //     // p2,  // Replace with your image paths
+  //   ];
 
-  const handleImageClick = (index) => {
-    setCenterImage(index);
-  };
+  //   const handleImageClick = (index) => {
+  //     setCenterImage(index);
+  //   };
 
   return (
     <div>
@@ -26,7 +32,9 @@ const Project = () => {
         <div className="project">
           <div className="project-up">
             <div className="pro">
-              <h2>Projects <hr /></h2>
+              <h2>
+                Projects <hr />
+              </h2>
               <h1>Our latest Projects (Villas)</h1>
             </div>
             <div className="quote-btn mob-none">
@@ -39,25 +47,34 @@ const Project = () => {
         </div>
         <div className="project-down">
           <div className="slider">
-            <div className="slider-images">
-              {proImages.map((image, index) => (
-                <div
-                  key={index}
-                  className={`slider-img ${centerImage === index ? 'center' : ''}`}
-                  style={{ backgroundImage: `url(${image})` }}
-                  onClick={() => handleImageClick(index)}
-                ></div>
-              ))}
-            </div>
-            <div className="slider-navigation">
-              {proImages.map((image, index) => (
-                <div
-                  key={index}
-                  className={`slider-nav ${centerImage === index ? 'active' : ''}`}
-                  onClick={() => handleImageClick(index)}
-                ></div>
-              ))}
-            </div>
+            <Swiper
+              slidesPerView={3}
+              spaceBetween={30}
+              pagination={{
+                clickable: true,
+              }}
+              modules={[Pagination]}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                <img src={p1} alt="" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={p2} alt="" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={p3} alt="" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={p1} alt="" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={p2} alt="" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src={p3} alt="" />
+              </SwiperSlide>
+            </Swiper>
           </div>
         </div>
       </div>
