@@ -188,7 +188,7 @@ min-height: 33rem;
 .project-down .swiper {
   width: 130%;
   height: 100%;
-  transform: translateX(-18%);
+  transform: translateX(-14%);
 }
 
 .project-down .swiper-slide {
