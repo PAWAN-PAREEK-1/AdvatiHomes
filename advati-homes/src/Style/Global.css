@@ -1,0 +1,54 @@
+body{
+    background: #1B1B1B;
+}
+
+.all-hero{
+    height: 32.99175rem;
+    background-size: cover !important;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Assets/img/all-hero.svg);
+}
+.all-mouse{
+    position: absolute;
+    bottom: -1.5rem;
+    /* left: 48%; */
+    z-index: 1;
+}
+.all-bg-hero{
+    position: absolute;
+    bottom: -39px;
+
+}
+.all-swiper-details{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+}
+.all-swiper-details h1{
+    color: #FFF;
+text-align: center;
+font-family: Tobias;
+font-size: 4rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+padding-bottom: 0.94rem;
+}
+.all-swiper-details p{
+    color: #FFF;
+text-align: center;
+font-family: Jost;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.0125rem;
+padding-inline: 34rem;
+
+}
