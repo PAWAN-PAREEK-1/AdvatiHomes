@@ -61,6 +61,12 @@ const Testimonial = () => {
     startIndex + 3
   );
 
+  // Define the width and height for the center div
+  const centerDivStyle = {
+    width: "1200px", // Change this to your desired width
+    height: "24rem", // Change this to your desired height
+  };
+
   return (
     <div>
       <div className="testi-index">
@@ -69,7 +75,11 @@ const Testimonial = () => {
           <img src={tleft} alt="" id="tleft" onClick={handlePrev} />
 
           {displayedTestimonials.map((testimonial, index) => (
-            <div key={index} className="testi-box">
+            <div
+              key={index}
+              className="testi-box"
+              style={index === 1 ? centerDivStyle : {}}
+            >
               <img src={testimonial.imgSrc} alt="" />
               <img src={star} alt="" />
               <h3>{testimonial.name}</h3>
