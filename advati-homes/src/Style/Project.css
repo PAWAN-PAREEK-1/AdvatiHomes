@@ -188,7 +188,7 @@ min-height: 33rem;
 .project-down .swiper {
   width: 130%;
   height: 100%;
-  transform: translateX(-8%);
+  transform: translateX(-18%);
 }
 
 .project-down .swiper-slide {
@@ -196,12 +196,41 @@ min-height: 33rem;
   border: 3px solid white;
   transform: scale(0.95 , 0.9);
   margin: 0 !important;
+  border-radius: 0.625rem;
 }
 .project-down .swiper-slide-next {
   transform: scale(1, 1) !important;
+  width: 1100px !important;
 }
 .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal{
   display: none;
 }
-
+.hh {
+	position: absolute;
+	bottom: 3.69rem;
+	color: #FFF;
+	text-align: center;
+	font-family: Tobias;
+	font-size: 1.5rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+	left: 1.56rem;
+}
+.swiper-slide{
+  position: relative;
+}
+.pp {
+	position: absolute;
+	bottom: 1.56rem;
+	color: #FFF;
+	font-family: Jost;
+	font-size: 1.25rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.0125rem;
+	left: 1.56rem;
+}
 
