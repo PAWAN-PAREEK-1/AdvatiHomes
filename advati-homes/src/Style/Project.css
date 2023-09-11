@@ -200,5 +200,8 @@ min-height: 33rem;
 .project-down .swiper-slide-next {
   transform: scale(1, 1) !important;
 }
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal{
+  display: none;
+}
 
 

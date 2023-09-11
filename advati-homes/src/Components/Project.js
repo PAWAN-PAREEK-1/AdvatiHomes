@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
-import { Pagination } from "swiper/modules";
+import { Pagination ,Autoplay} from "swiper/modules";
 import arrow from "../Assets/img/twoarrow.svg";
 import p1 from "../Assets/img/p1.svg";
 import p2 from "../Assets/img/p2.svg";
@@ -48,12 +48,18 @@ const Project = () => {
         <div className="project-down">
           <div className="slider">
             <Swiper
+             autoplay={{
+              delay: 2500,
+
+              disableOnInteraction: false,
+            }}
+            loop={true}
               slidesPerView={3}
               spaceBetween={30}
               pagination={{
                 clickable: true,
               }}
-              modules={[Pagination]}
+              modules={[Pagination , Autoplay]}
               className="mySwiper"
             >
               <SwiperSlide>
