@@ -6,6 +6,7 @@ import t3 from "../Assets/img/t3.svg";
 import star from "../Assets/img/star2.svg";
 import tright from "../Assets/img/tright.svg";
 import tleft from "../Assets/img/tleft.svg";
+import testi from "../Assets/img/testimonial.svg";
 
 const Testimonial = () => {
   const [testimonials, setTestimonials] = useState([
@@ -77,9 +78,18 @@ const Testimonial = () => {
           {displayedTestimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="testi-box"
-              style={index === 1 ? centerDivStyle : {}}
+              className={`testi-box ${
+                index === 1 ? "center-div" : "" // Add class "center-div" to the center div
+              }`}
+              style={index === 1 ? centerDivStyle : {}} // Apply the centerDivStyle to the center div
             >
+              {index === 1 && (
+                <img
+                  src={testi}
+                  alt=""
+                  className="center-image" // Add class "center-image" to the center image
+                />
+              )}
               <img src={testimonial.imgSrc} alt="" />
               <img src={star} alt="" />
               <h3>{testimonial.name}</h3>

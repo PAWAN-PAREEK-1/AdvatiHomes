@@ -117,3 +117,9 @@ height: 1.875rem;
         top: 102%;
     }
 }
+
+.center-image {
+	position: absolute;
+	top: 0.94rem;
+	right: 0.88rem;
+}
