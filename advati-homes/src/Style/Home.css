@@ -6,7 +6,7 @@
 }
 .bg-hero{
     position:absolute;
-    bottom: -3px;
+    bottom: -5px;
     width: 100%;
     overflow: hidden;
     z-index: 9999;

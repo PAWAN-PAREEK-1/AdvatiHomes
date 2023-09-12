@@ -197,3 +197,102 @@ line-height: normal;
 text-transform: uppercase;
 padding-block: 1.56rem;
 }
+
+
+@media (max-width: 767px) {
+    .all-swiper-details h1{
+font-size: 1.25rem;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+    }
+    .all-swiper-details p{
+        padding-inline: 0;
+font-size: 0.8125rem;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.00813rem;
+    }
+    .all-swiper-details{
+        padding: 0.94rem;
+    }
+    .neb-left{
+        padding: 0.94rem;
+    }
+    .neb-left h1{
+font-size: 1.25rem;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+    }
+    .neb-index{
+        flex-direction: column;
+        margin-top: 2.19rem;
+        height: auto;
+    }
+    .neb-left{
+        width: 100%;
+    }
+    .neb-box h1{
+font-size: 1.125rem;
+font-weight: 800;
+line-height: normal;
+margin-top: 0.94rem;
+    }
+    .neb-box img{
+        width: 1.875rem;
+height: 1.875rem;
+    }
+    .neb-box{
+        width: 14.6875rem;
+height: 11.8125rem;
+padding: 1.25rem;
+    }
+    .neb-detail{
+        overflow: auto;
+        flex-wrap: nowrap;
+        position: initial;
+        width: 100%;
+        justify-content: initial;
+    }
+    .villa-point{
+font-size: 0.8125rem;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.00813rem;
+    }
+    .floor-index{
+        padding: 0.94rem;
+    }
+    .floor-up p{
+        padding: 0;
+font-size: 0.8125rem;
+font-weight: 500;
+letter-spacing: 0.00813rem;
+    }
+    .floor-up h1{
+font-size: 1.25rem;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+    }
+    .floor-up{
+        gap: 0.62rem;
+    }
+    .floor-box h1{
+font-size: 1.125rem;
+font-weight: 800;
+line-height: normal;
+padding-block: 0.8rem;
+    }
+    .floor-box{
+        padding: 0.62rem;
+        min-width: 16rem;
+        height: 28.6rem;
+    }
+    .floor-down{
+        overflow: auto;
+        justify-content: initial;
+        gap: 0.62rem;
+    }
+}

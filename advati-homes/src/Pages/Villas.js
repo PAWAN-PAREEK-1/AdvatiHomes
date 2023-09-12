@@ -101,7 +101,7 @@ const Villas = () => {
 
               <div className="ame-main">
                 <img src={am6} alt="" />
-                <div className="ame-detail">
+                <div className="ame-detail villa-detail">
                   <h1>Starting @2.9 Cr. at Jayadarsini, Medchal</h1>
                   <div className="about-points">
                     <div className="point-left">

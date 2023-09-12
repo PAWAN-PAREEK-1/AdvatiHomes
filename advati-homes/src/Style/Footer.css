@@ -101,6 +101,9 @@ line-height: normal;
     padding: 0.81rem 2.19rem;
     border: 1px solid #FFF;
     margin-top: 1.56rem;
+    display: inline-flex;
+    align-items: center;
+    gap:0.31rem;
 }
 .social{
     display: flex;
@@ -141,4 +144,57 @@ font-size: 1.125rem;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+}
+
+@media (max-width: 768px) {
+    .footer-index{
+        margin-top: 2.19rem;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        padding: 0.94rem;
+        gap: 0.94rem;
+    }
+    .footer-1{
+        gap: 1rem;
+    }
+    .footer-2 h1{
+font-size: 1.25rem;
+font-weight: 700;
+text-transform: capitalize;
+    }
+    .inputs{
+        margin-top: 0.94rem;
+    }
+    .inputs input, .inputs textarea {
+        padding: 0.62rem 0.94rem;
+    }
+    .footer-2{
+        width: 100%;
+    }
+    .logo2 img{
+        display: none;
+    }
+    .inputs a h4{
+        font-size: 1rem;
+        margin-top: 0.94rem;
+    }
+    .social{
+        margin-top: 1.09rem;
+    }
+    .footer-detail{
+        padding: 0.94rem;
+
+    }
+    .footer-links {
+        gap: 1.37rem;
+        flex-wrap: wrap;
+    }
+    .footer-links a{
+        font-size: 0.8rem;
+    }
+    .footer-detail h4{
+        font-size: 0.812rem;
+    }
 }

@@ -59,35 +59,35 @@ const Project = () => {
               pagination={{
                 clickable: true,
               }}
-              modules={[Pagination,Autoplay]}
+              modules={[Pagination]}
               className="mySwiper"
             >
-              <SwiperSlide>
+              <SwiperSlide className="c-slide">
                <h1 className="hh">Advait viila</h1>
                <p className="pp">3 Bhk East-Facing Duplex Villas</p>
                 <img src={p1} alt="" />
               </SwiperSlide>
-              <SwiperSlide>
+              <SwiperSlide className="c-slide">
               <h1 className="hh">Advait viila</h1>
                <p className="pp">3 Bhk East-Facing Duplex Villas</p>
                 <img src={p2} alt="" />
               </SwiperSlide>
-              <SwiperSlide>
+              <SwiperSlide className="c-slide">
               <h1 className="hh">Advait viila</h1>
                <p className="pp">3 Bhk East-Facing Duplex Villas</p>
                 <img src={p3} alt="" />
               </SwiperSlide>
-              <SwiperSlide>
+              <SwiperSlide className="c-slide">
               <h1 className="hh">Advait viila</h1>
                <p className="pp">3 Bhk East-Facing Duplex Villas</p>
                 <img src={p1} alt="" />
               </SwiperSlide>
-              <SwiperSlide>
+              <SwiperSlide className="c-slide">
               <h1 className="hh">Advait viila</h1>
                <p className="pp">3 Bhk East-Facing Duplex Villas</p>
                 <img src={p2} alt="" />
               </SwiperSlide>
-              <SwiperSlide>
+              <SwiperSlide className="c-slide">
               <h1 className="hh">Advait viila</h1>
                <p className="pp">3 Bhk East-Facing Duplex Villas</p>
                 <img src={p3} alt="" />

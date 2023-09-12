@@ -244,6 +244,14 @@ text-transform: capitalize;
                 padding: 0.64rem 1.25rem;
             }
 
+            .mobileNav ul{
+                display: initial;
+                margin-left: 1rem;
+            }
+            .mobileNav ul li a{
+                padding-left: 2rem;
+            }
+
 
 }
 

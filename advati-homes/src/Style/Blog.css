@@ -1,104 +1,136 @@
-.blog-index{
+.blog-index {
     position: relative;
 }
-.blog-main{
+
+.blog-main {
     padding: 6.25rem 15rem 4.25rem;
 }
-.ins-img{
+
+.ins-img {
     padding: 1.25rem;
     background-color: white;
     width: 25.625rem;
-height: 8.4375rem;
-position: relative;
+    height: 8.4375rem;
+    position: relative;
 
 
 }
+
 .ins {
-	position: absolute;
-	bottom: -4rem;
-	left: 1.7rem;
+    position: absolute;
+    bottom: -4rem;
+    left: 1.7rem;
 }
-.ins-img h2{
+
+.ins-img h2 {
     display: inline-flex;
     align-items: center;
     gap: 1rem;
     color: #333;
-font-family: Tobias;
-font-size: 1.125rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
+    font-family: Tobias;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
 }
-.ins-img p{
+
+.ins-img p {
     color: #333;
-font-family: Tobias;
-font-size: 1.5rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
-padding-top: 0.94rem;
+    font-family: Tobias;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-top: 0.94rem;
 }
-.date{
+
+.date {
     padding: 0.63rem 0.88rem;
     background: var(--primery, #82A93C);
     width: fit-content;
     color: #FFF;
-font-family: Tobias;
-font-size: 0.7rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
-display: flex;
-flex-direction: column;
-align-items: center;
-position: absolute;
-top: -41px;
-right: 0;
+    font-family: Tobias;
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: -41px;
+    right: 0;
 }
 
 @media (max-width: 768px) {
-    .blog-main{
+    .blog-main {
         padding: 0.94rem;
         margin-top: 4rem;
     }
-    .project-up{
+
+    .project-up {
         flex-direction: column;
     }
-    .down-ab{
-       position: absolute;
-       bottom: 0;
+
+    .down-ab {
+        position: absolute;
+        bottom: 0;
     }
-    .ins-img h2{
-font-size: 0.75rem;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
+
+    .ins-img h2 {
+        font-size: 0.75rem;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
     }
-    .ins-img p{
-font-size: 1.125rem;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
-padding-top: 0.5rem;
+
+    .ins-img p {
+        font-size: 1.125rem;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        padding-top: 0.5rem;
     }
-    .ins-img{
+
+    .ins-img {
         padding: 0.94rem;
         width: 15.3125rem;
-height: 6.125rem;
-flex-shrink: 0;
+        height: 6.125rem;
+        flex-shrink: 0;
     }
-    .date{
-font-size: 0.425rem;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
-padding: 0.63rem;
+
+    .date {
+        font-size: 0.425rem;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        padding: 0.63rem;
     }
-    .blog-left{
-        overflow: initial;
+
+    .blog-left {
+        overflow: auto;
+
     }
+
+    .left-serv {
+        margin-bottom: 2.44rem;
+    }
+
+    .ins {
+        left: 0;
+    }
+
+    .ins-img img {
+        width: 0.4375rem;
+        height: 0.4375rem;
+    }
+
+    /* .blog-boxes img {
+        width: 21.5625rem ;
+
+    } */
 
 }

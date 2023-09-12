@@ -245,4 +245,7 @@ line-height: normal;
     .about-points h3{
         padding-block: 0;
     }
+    .bg-box{
+        display: none;
+    }
 }
