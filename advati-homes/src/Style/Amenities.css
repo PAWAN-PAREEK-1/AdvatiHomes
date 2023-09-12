@@ -178,3 +178,12 @@ line-height: normal;
 letter-spacing: 0.00813rem;
     }
   }
+
+
+  @media (min-width: 1100px) and (max-width: 1850px){
+
+    .amenities {
+      padding: 5.57rem 3.25rem 0;
+    }
+
+  }

@@ -187,5 +187,10 @@ height: 2.5rem;
 top: -109px;
 right: 0;
     }
- 
+
 }
+@media (min-width: 1100px) and (max-width: 1850px){
+    .index-service{
+        padding: 6.88rem 3.25rem 5rem;
+    }
+  }

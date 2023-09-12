@@ -255,6 +255,15 @@ text-transform: capitalize;
 
 }
 
+@media (min-width: 1100px) and (max-width: 1850px){
+    body{
+        overflow-x: hidden;
+    }
+    .navbar{
+        padding: 0.63rem 3.25rem;
+    }
+}
+
 
 
 

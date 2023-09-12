@@ -263,4 +263,14 @@ left: 0.64rem !important;
 }
 
 
+@media (min-width: 1100px) and (max-width: 1850px){
+  .project {
+    padding: 6.87rem 3.25rem 0;
+  }
+  .project-down .swiper{
+    transform: translateX(-20%);
+  }
+}
+
+
 

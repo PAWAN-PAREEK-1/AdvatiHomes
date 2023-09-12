@@ -198,3 +198,11 @@ text-transform: capitalize;
         font-size: 0.812rem;
     }
 }
+
+@media (min-width: 1100px) and (max-width: 1850px){
+
+    footer {
+        padding: 5rem 3.25rem;
+    }
+
+  }
