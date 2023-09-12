@@ -11,6 +11,7 @@ import am3 from "../Assets/img/com.svg";
 import am4 from "../Assets/img/park.svg";
 import am6 from "../Assets/img/am6.svg";
 import bag from "../Assets/img/bag.svg";
+import home1 from "../Assets/img/h1.svg";
 const Navbar = lazy(() => import("../Components/Navbar"));
 const Loading = lazy(() => import("../Components/Loading"));
 const Footer = lazy(() => import("../Components/Footer"));
@@ -105,16 +106,21 @@ const Villas = () => {
                   <div className="about-points">
                     <div className="point-left">
                       <h3>
-                        <span></span>Conveniently located on the north-side of Medchal (NH-44){" "}
+                        <span></span>Conveniently located on the north-side of
+                        Medchal (NH-44){" "}
                       </h3>
                       <h3>
-                        <span></span>Medchal has emerged as a rapidly expanding residential area in Hyderabad's thriving north zone, given its proximity to Kompally and Secunderabad's commercial centers{" "}
+                        <span></span>Medchal has emerged as a rapidly expanding
+                        residential area in Hyderabad's thriving north zone,
+                        given its proximity to Kompally and Secunderabad's
+                        commercial centers{" "}
                       </h3>
                       <h3>
-                        <span></span>Unmatched living experience amid excellent social infrastructure, including renowned schools, hospitals, and shopping complexes
+                        <span></span>Unmatched living experience amid excellent
+                        social infrastructure, including renowned schools,
+                        hospitals, and shopping complexes
                       </h3>
                     </div>
-
                   </div>
                 </div>
               </div>
@@ -122,117 +128,165 @@ const Villas = () => {
           </div>
         </div>
 
-
         <div className="neb-index">
           <div className="neb-left">
-
             <h1>Your Neighbourhood</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis dui vel enim porta, euismod scelerisque massa feugiat. Integer in ipsum eu nunc porta sollicitudin. Donec id purus odio. Ut sed cursus arcu. Nullam faucibus in eros eget vehicula. Donec pulvinar tellus tincidunt sagittis fringilla.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+              facilisis dui vel enim porta, euismod scelerisque massa feugiat.
+              Integer in ipsum eu nunc porta sollicitudin. Donec id purus odio.
+              Ut sed cursus arcu. Nullam faucibus in eros eget vehicula. Donec
+              pulvinar tellus tincidunt sagittis fringilla.
+            </p>
             <div className="quote-btn cursor-pointer">
-            <a href="">Learn More <img src={arrow} alt="" /> </a>
+              <a href="">
+                Learn More <img src={arrow} alt="" />{" "}
+              </a>
+            </div>
           </div>
-          </div>
-          <div className="neb-right">
+          <div className="neb-right"></div>
 
-          </div>
-
-
-        <div className="neb-detail">
+          <div className="neb-detail">
             <div className="neb-box">
-
               <img src={bag} alt="" />
               <h1>IT/Corporats</h1>
               <div className="about-points villa-point">
-                    <div className="point-left">
-                      <h3>
-                        <span></span>IKP Knowledge Park{" "}
-                      </h3>
-                      <h3>
-                        <span></span>Biological E Limited{" "}
-                      </h3>
-                      <h3>
-                        <span></span>Bayer CropScience Limited
-                      </h3>
-                    </div>
-
-                  </div>
-
+                <div className="point-left">
+                  <h3>
+                    <span></span>IKP Knowledge Park{" "}
+                  </h3>
+                  <h3>
+                    <span></span>Biological E Limited{" "}
+                  </h3>
+                  <h3>
+                    <span></span>Bayer CropScience Limited
+                  </h3>
+                </div>
+              </div>
             </div>
             <div className="neb-box">
-
               <img src={bag} alt="" />
               <h1>Education</h1>
               <div className="about-points villa-point">
-                    <div className="point-left">
-                      <h3>
-                        <span></span>CMR Institute of Technology{" "}
-                      </h3>
-                      <h3>
-                        <span></span>TSRTC Transport Academy{" "}
-                      </h3>
-                   
-                    </div>
-
-                  </div>
-
+                <div className="point-left">
+                  <h3>
+                    <span></span>CMR Institute of Technology{" "}
+                  </h3>
+                  <h3>
+                    <span></span>TSRTC Transport Academy{" "}
+                  </h3>
+                </div>
+              </div>
             </div>
             <div className="neb-box">
-
               <img src={bag} alt="" />
               <h1>Hospital</h1>
               <div className="about-points villa-point">
-                    <div className="point-left">
-                      <h3>
-                        <span></span>Pragnya Super Speciality Hospital - 10 mins{" "}
-                      </h3>
-
-                    </div>
-
-                  </div>
-
+                <div className="point-left">
+                  <h3>
+                    <span></span>Pragnya Super Speciality Hospital - 10 mins{" "}
+                  </h3>
+                </div>
+              </div>
             </div>
             <div className="neb-box">
-
               <img src={bag} alt="" />
               <h1>Entertainment</h1>
               <div className="about-points villa-point">
-                    <div className="point-left">
-                      <h3>
-                        <span></span>Asian Mukund A/C Theatre{" "}
-                      </h3>
-                      <h3>
-                        <span></span>Medchal Cricket Arena{" "}
-                      </h3>
-
-                    </div>
-
-                  </div>
-
+                <div className="point-left">
+                  <h3>
+                    <span></span>Asian Mukund A/C Theatre{" "}
+                  </h3>
+                  <h3>
+                    <span></span>Medchal Cricket Arena{" "}
+                  </h3>
+                </div>
+              </div>
             </div>
             <div className="neb-box">
-
               <img src={bag} alt="" />
               <h1>Connectivity</h1>
               <div className="about-points villa-point">
-                    <div className="point-left">
-                      <h3>
-                        <span></span>Medchal Bus Station{" "}
-                      </h3>
-                      <h3>
-                        <span></span>Shopping Center{" "}
-                      </h3>
-                      <h3>
-                        <span></span>Railway Station
-                      </h3>
-                    </div>
-
-                  </div>
-
+                <div className="point-left">
+                  <h3>
+                    <span></span>Medchal Bus Station{" "}
+                  </h3>
+                  <h3>
+                    <span></span>Shopping Center{" "}
+                  </h3>
+                  <h3>
+                    <span></span>Railway Station
+                  </h3>
+                </div>
+              </div>
             </div>
-
           </div>
+        </div>
 
+        <div className="floor-index">
+          <div className="floor-up">
+            <h1>Floor Plans</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+              sit amet eros eu mi feugiat feugiat. Quisque a sodales neque.
+              Pellentesque habitant
+            </p>
+          </div>
+          <div className="floor-down">
+            <div className="floor-box">
+              <img src={home1} alt="" />
 
+              <h1>3 BHK East-facing Duplex Villas</h1>
+              <div className="about-points villa-point">
+                <div className="point-left">
+                  <h3>
+                    <span></span>A lounge (with covered terrace){" "}
+                  </h3>
+                  <h3>
+                    <span></span>2 Bedrooms (1 with a dressing area and covered
+                    terrace){" "}
+                  </h3>
+                  <h3>
+                    <span></span>Puja room{" "}
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div className="floor-box">
+              <img src={home1} alt="" />
+
+              <h1>3 BHK East-facing Duplex Villas</h1>
+              <div className="about-points villa-point">
+                <div className="point-left">
+                  <h3>
+                    <span></span>Lounge area with sit out{" "}
+                  </h3>
+                  <h3>
+                    <span></span>2 bedrooms with attached bath (including a sit out for 1 of the bedrooms){" "}
+                  </h3>
+
+                </div>
+              </div>
+            </div>
+            <div className="floor-box">
+              <img src={home1} alt="" />
+
+              <h1>4 BHK East-facing Duplex Villas</h1>
+              <div className="about-points villa-point">
+                <div className="point-left">
+                  <h3>
+                    <span></span>2 bedrooms (1 with an attached sit out){" "}
+                  </h3>
+                  <h3>
+                    <span></span>Lounge area with an attached sit out{" "}
+                  </h3>
+                  <h3>
+                    <span></span>Puja room{" "}
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <Footer />

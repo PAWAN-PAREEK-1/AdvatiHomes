@@ -132,3 +132,68 @@ margin-bottom: 0.94rem;
 .villa-point h3{
     padding-block: 0.31rem !important;
 }
+
+.floor-index{
+    margin-top: 6.25rem;
+    padding-inline: 15rem;
+
+}
+.floor-up{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    justify-content: center;
+    align-items: center;
+}
+.floor-up h1{
+    color: #FFF;
+font-family: Tobias;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+.floor-up p{
+    color: #7F7F7F;
+text-align: center;
+font-family: Jost;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.01125rem;
+padding-inline: 20rem;
+}
+
+.floor-down{
+    margin-top: 3.12rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: max-content;
+
+}
+.floor-box{
+    width: 32%;
+    padding: 0.94rem;
+    border-radius: 0.625rem;
+background: #2D2D2D;
+height: 35.75rem;
+
+}
+.floor-box img{
+    border-radius: 0.625rem 0.625rem 0rem 0rem;
+    width: 100%;
+    object-fit: cover;
+}
+.floor-box h1{
+    color: #FFF;
+font-family: Tobias;
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+padding-block: 1.56rem;
+}
