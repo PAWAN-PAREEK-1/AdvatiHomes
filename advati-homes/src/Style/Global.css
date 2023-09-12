@@ -52,4 +52,83 @@ letter-spacing: 0.0125rem;
 padding-inline: 34rem;
 
 }
-    
+
+
+
+
+
+
+/* villa page style  */
+
+
+.neb-index{
+    display: flex;
+    margin-top: 6.25rem;
+    position: relative;
+    height: 44.75rem;
+
+}
+.neb-left{
+    background: #323232;
+    width: 45%;
+    padding: 10.62rem 11.75rem 10.69rem 15rem;
+}
+.neb-right{
+    opacity: 0.5;
+background: #282828;
+width: 55%;
+}
+.neb-left h1{
+    color: #FFF;
+font-family: Tobias;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+padding-bottom: 0.94rem;
+}
+.neb-left p{
+    color: #7F7F7F;
+font-family: Jost;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.01125rem;
+padding-bottom: 1.88rem;
+}
+
+.neb-detail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 61rem;
+    gap: 1.88rem;
+    position: absolute;
+    top: 5rem;
+    right: 15rem;
+    bottom: 5rem;
+}
+
+.neb-box{
+    padding: 1.56rem 1.8rem;
+    width: 19.0625rem;
+    height: 16.4375rem;
+    border: 1px solid #7E7E7E;
+background: rgba(90, 90, 90, 0.21);
+}
+.neb-box h1{
+    color: #FFF;
+font-family: Tobias;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 1.56rem;
+margin-bottom: 0.94rem;
+}
+.villa-point h3{
+    padding-block: 0.31rem !important;
+}

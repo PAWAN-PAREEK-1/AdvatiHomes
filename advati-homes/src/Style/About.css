@@ -92,6 +92,7 @@ font-weight: 400;
 line-height: normal;
 letter-spacing: 0.01125rem;
 padding-block: 0.94rem;
+margin-top: 0 !important;
 
 }
 .about-points h3 span{
